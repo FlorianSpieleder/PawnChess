@@ -1,0 +1,201 @@
+pc> m 7 1 7 3
+pc> m 8 1 8 3
+pc> p
+B B B B B B
+              B
+            B
+
+
+            W W
+
+W W W W W W
+pc> m 7 3 7 4
+pc> l 0
+Error! Level has to be greater than 0.
+pc> l 2
+pc> m 7 4 7 5
+pc> p
+B B B B B
+              B
+            B
+            B
+
+              W
+
+W W W W W W
+pc> m 100 10 100 11
+Error! Invalid argument(s).
+pc> m 1 a 1 3
+Error! Argument needs to be a number.
+pc> m 8 3 8 4
+pc> p
+B B B B B
+              B
+            B
+
+              B
+
+
+W W W W W W
+pc> m 1 1 1 3
+pc> p
+B B B B B
+
+            B B
+
+              B
+W
+
+  W W W W W
+pc> l 4
+pc> m 2 1 2 3
+pc> p
+B B B B B
+
+            B
+              B
+              B
+W W
+
+    W W W W
+pc> m 3 1 3 3
+pc> m 2 3 2 4
+pc> p
+B B B
+
+      B B   B
+              B
+  W           B
+W   W
+
+      W W W
+pc> s
+New game started. You are black.
+pc> p
+W W W W W W W
+
+              W
+
+
+
+
+B B B B B B B B
+pc> m 3 1 4 1
+Error! Invalid argument(s).
+pc> m 3 1 3 2
+pc> n
+New game started. You are black.
+pc> p
+W W W W W W W
+
+              W
+
+
+
+
+B B B B B B B B
+pc> s
+New game started. You are white.
+pc> p
+B B B B B B B B
+
+
+
+
+
+
+W W W W W W W W
+pc> h
+There are currently 7 commands, that can be executed:
+NEW: Creates a new Game, where the startPlayer and difficulty get taken from the previous game.
+LEVEL l: Sets the difficulty to l, if l is greater than 0.
+MOVE cf rf ct rt: Executes a move from tile (cf rf) to tile (ct rt).
+SWITCH: Change the opener and start a new game
+PRINT: Prints the game to the console.
+HELP: Prints the explanation of all commands.
+QUIT: Ends the program.
+pc> o
+Error! Command unknown.
+pc> p
+B B B B B B B B
+
+
+
+
+
+
+W W W W W W W W
+pc> m 1 8 1 7
+Error! Invalid argument(s).
+pc> m 1 1 1 3
+mpc> m 1 3 1 4
+pc> m 2 1 2 3
+pc> m 3 1 3 3
+pc> m 2 3 2 4
+pc> p
+B B B
+
+      B B B B B
+
+W W
+    W
+
+      W W W W W
+pc> l 3
+pc> m 1 4 1 5
+pc> m 3 3 3 4
+pc> p
+B B
+
+      B B B B B
+W   B
+  W W
+
+
+      W W W W W
+pc> m 2 5 3 6
+Error! Invalid argument(s).
+pc> m 2 4 3 5
+pc> p
+B B
+
+        B B B B
+W   B
+    W
+
+
+      W W W W W
+pc> m 4 1 4 3
+pc> m 4 3 4 4
+pc> p
+  B
+B
+        B B B B
+W
+    W B
+
+
+        W W W W
+pc> m 3 4 3 5
+pc> m 5 1 5 2
+pc> m 1 5 2 6
+pc> m 3 5 3 6
+pc> p
+
+
+  B W     B B
+        B     B
+      B
+
+        W
+          W W W
+pc> m 1 1 1 3
+Error! Invalid argument(s).
+pc> m 3 6 3 7
+pc> m 3 7 38
+Error! Wrong number of arguments.
+pc> m 3 7 3 8
+Congratulations! You won.
+pc> q
+
+Process finished with exit code 0
